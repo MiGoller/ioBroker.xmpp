@@ -1,0 +1,80 @@
+{
+	"common": {
+		"name": "xmpp",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "XMPP",
+		"titleLang": {
+			"en": "XMPP",
+			"de": "XMPP",
+			"ru": "XMPP",
+			"pt": "XMPP",
+			"nl": "XMPP",
+			"fr": "XMPP",
+			"it": "XMPP",
+			"es": "XMPP",
+			"pl": "XMPP",
+			"zh-cn": "XMPP"
+		},
+		"desc": {
+			"en": "ioBroker XMPP Adapter",
+			"de": "ioBroker XMPP Adapter",
+			"ru": "Адаптер ioBroker XMPP",
+			"pt": "Adaptador ioBroker XMPP",
+			"nl": "ioBroker XMPP-adapter",
+			"fr": "Adaptateur ioBroker XMPP",
+			"it": "Adattatore XMPP ioBroker",
+			"es": "Adaptador ioBroker XMPP",
+			"pl": "Adapter ioBroker XMPP",
+			"zh-cn": "ioBroker XMPP适配器"
+		},
+		"authors": [
+			"MiGoller <goller.michael@gmail.com>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "xmpp.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/MiGoller/ioBroker.xmpp/master/admin/xmpp.png",
+		"readme": "https://github.com/MiGoller/ioBroker.xmpp/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "messaging",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "push",
+		"message": true,
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
